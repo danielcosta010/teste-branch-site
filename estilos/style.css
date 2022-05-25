@@ -9,9 +9,29 @@ body {
 
 main {
     background-color: aliceblue;
-    width: 500px;
+    min-width: 200px;
+    max-width: 800px;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(37, 37, 37, 0.74);
+    display: block;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+iframe {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(13, 146, 255, 0.938);
 }
